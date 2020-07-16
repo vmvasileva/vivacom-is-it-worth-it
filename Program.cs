@@ -9,14 +9,9 @@ namespace Is_It_Worth_It
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
-            // da se napishe programa,koqto izchislqva kakva suma bihme platili na Vivacom  pri prekratqvane na dogovora. Cenata se sformira kato 3 
-            //taksi na nepromocionalna cena + razlika v cenata, koqto e polzvana prez izminalite meseci + neustoika za ustroistvo, ako e zakupeno.
-
-            //da se izchisli dali e po-nasmetka da se izplati ostavashtata suma ot mesechnite taksi na dogovora il da se platqt neustoikite.
             //TODO:
             // - You could use DateTime.Parse to read the contract's start date and end date
             // - You could use TimeSpan to make calculations about the dates
-
             Console.WriteLine("Как се казвате?");
             string nameOfUser = Console.ReadLine();
 
